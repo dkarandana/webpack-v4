@@ -1,0 +1,34 @@
+{
+  "name": "webpack-v4",
+  "version": "0.0.1",
+  "description": "WebPack for AJS students ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=dev && webpack ",
+    "prod": "export NODE_ENV=prod && webpack -p --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkarandana/webpack-v4.git"
+  },
+  "keywords": [
+    "webpack",
+    "ajs",
+    "react"
+  ],
+  "author": "Dhananjaya Karandana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkarandana/webpack-v4/issues"
+  },
+  "homepage": "https://github.com/dkarandana/webpack-v4#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
